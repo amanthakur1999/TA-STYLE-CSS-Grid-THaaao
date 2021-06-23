@@ -1,0 +1,91 @@
+header{
+    text-align: center;
+    padding: 3rem 0;
+    font-size: 3rem;
+    color: white;
+}
+.box{
+background-color: white;
+padding: .6rem;
+}
+.header{
+    padding: .8rem 4rem; 
+    border-top: 2px solid #3995BF;
+    border-radius: .3rem;
+    a{
+        color: #3995BF;
+        font-size: 1.6rem;
+    }
+}
+.box2,.box7, .box5{
+    border-top: 2px solid #3995BF;
+    border-radius: .3rem;
+    h2{
+        font-size: 2rem;
+    }
+    a{
+        color: red;
+        margin-top: 1rem;
+    }
+    
+}
+.box3{
+    border-top: 2px solid #3995BF;
+    border-radius: .3rem;
+    padding:0 2rem;
+    h2{
+        font-size: 2rem;
+    }
+    a{
+        color: red;
+        margin-top: 1rem;
+    }
+    img{
+        width: 80%;
+        margin: 0 auto;
+        border-radius: 50%;
+        margin-left: 2rem;
+        
+    }
+    
+}
+.box4{
+    border-top: 2px solid #3995BF;
+    border-radius: .3rem;
+    padding: 0;
+    h2{
+        font-size: 2rem;
+        padding: .3rem;
+    }
+    p{
+        padding:0 .4rem;
+    }
+}
+.div-4{
+    background-color: red;
+    a{
+   color: white;}
+   padding: .6rem;
+}
+.box6{
+    border-top: 2px solid #3995BF;
+    border-radius: .3rem;
+    padding: 0;
+ 
+    a{
+        color: red;
+        margin-top: 1rem;
+        padding: .6rem;
+    }
+    p{
+        padding: .6rem;
+    }
+    
+}
+.h2{
+    background-color:#3995BF ;
+    padding: .2rem .6rem;
+    h2{
+        font-size: 2rem;
+    }
+}

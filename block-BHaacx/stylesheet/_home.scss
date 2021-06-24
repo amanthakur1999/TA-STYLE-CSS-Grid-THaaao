@@ -1,0 +1,259 @@
+.item1 {
+    background: url(../assets/media/home-img.jpg)50% 40%,no-repeat;
+  background-size: auto;
+  height: 90vh;
+}
+.item2 {
+  background-color: #f5e3d7;
+  padding: 2rem;
+  header {
+    padding: 0rem 6rem;
+    padding-bottom: 5rem;
+  }
+  a {
+    margin-left: 1rem;
+    font-size: 0.8rem;
+    color: black;
+  }
+  h6 {
+    font-size: 0.8rem;
+    color: rgb(168, 168, 168);
+    padding-bottom: 1.6rem;
+  }
+  h2 {
+    font-size: 2.3rem;
+    font-weight: 200;
+    span {
+      font-weight: 300;
+    }
+  }
+  p {
+    font-weight: 200;
+    color: rgb(119, 119, 119);
+    margin: 1rem 0;
+  }
+  .btn {
+    padding: 0.5rem 2.5rem;
+
+    border: 3px solid black;
+    border-radius: 1.2rem;
+    display: inline-block;
+    font-weight: 700;
+  }
+}
+.item3 {
+  background-color: #ffffff;
+  padding: 3rem 2rem;
+  h2 {
+    font-size: 2.5rem;
+    font-weight: 200;
+  }
+  p {
+    margin: 1rem 0;
+    font-size: 0.9rem;
+  }
+}
+
+.item4 {
+  background: url(../assets/media/about-img.jpg) 50% 10%, no-repeat;
+  background-size: auto;
+}
+.item5 {
+  padding: 2.5rem;
+  background-color: #ecaf4e;
+  h2 {
+    font-size: 2.3rem;
+    color: white;
+    font-weight: 200;
+  }
+  p {
+    color: white;
+    font-size: 0.9rem;
+    padding: 1.5rem 0;
+  }
+  ul {
+    margin: 0.7rem 0;
+    li {
+      font-size: 0.9rem;
+    }
+  }
+}
+#progressbar,
+#progressbar2,
+#progressbar3 {
+  background-color: white;
+  border-radius: 20px;
+  padding: 0px;
+}
+
+#progressbar > div {
+  background-color: black;
+  width: 90%;
+  height: 3px;
+  border-radius: 10px;
+}
+#progressbar2 > div {
+  background-color: black;
+  width: 70%;
+  height: 3px;
+  border-radius: 10px;
+}
+#progressbar3 > div {
+  background-color: black;
+  width: 80%;
+  height: 3px;
+  border-radius: 10px;
+}
+.item6,
+.item7,
+.item8,
+.item9 {
+  text-align: center;
+  padding: 2rem;
+  color: white;
+  h2 {
+    font-size: 1.6rem;
+    font-weight: 200;
+    margin: 1rem;
+  }
+  p {
+    font-weight: 100;
+  }
+  .fas,
+  .fab {
+    font-size: 2rem;
+  }
+}
+
+.item6 {
+  background-color: #ecaf4e;
+}
+.item7 {
+  background-color: #ef663b;
+}
+.item8 {
+  background-color: black;
+}
+.item9 {
+  background-color: white;
+  color: black;
+}
+.item10 {
+  background: url(../assets/media/experience-img.jpg) 30% 40%, no-repeat;
+  background-size: auto;
+}
+.item11,
+.item12 {
+  padding: 3rem;
+  background-color: #ef663b;
+  color: white;
+  h2 {
+    font-size: 2.5rem;
+    font-weight: 200;
+  }
+  p {
+    font-size: 0.9rem;
+    font-weight: 200;
+  }
+  h3 {
+    font-size: 1.8rem;
+    font-weight: 200;
+    span {
+      font-size: 1rem;
+      font-weight: 400;
+      color: #713234;
+    }
+  }
+  .fas {
+    font-size: 2rem;
+  }
+}
+.experiences {
+  display: flex;
+  margin: 2rem 0;
+  .fas {
+    margin-right: 1rem;
+  }
+}
+.item12 {
+  background-color: #ecaf4e;
+}
+.item13 {
+  background: url(../assets/media/education-img.jpg) 50% 50%, no-repeat;
+  background-size: auto;
+}
+
+.item14 {
+  background-color: #ef663b;
+  padding: 3rem;
+  color: white;
+  h2 {
+    font-size: 2.5rem;
+    font-weight: 200;
+  }
+  input,
+  textarea {
+    border: none;
+    background-color: #ef663b;
+    border-bottom: 2px solid #ecaf4e;
+    width: 100%;
+    padding-top: 1.8rem;
+    padding-bottom: 1rem;
+    &::placeholder {
+      color: white;
+      font-size: 0.8rem;
+      font-family: "Montserrat", sans-serif;
+    }
+  }
+  a {
+    padding: 0.7rem 8rem;
+    background-color: white;
+    display: inline-block;
+    color: rgb(109, 108, 108);
+    border-radius: 1.3rem;
+    margin-top: 1rem;
+  }
+}
+.item15{
+    background: url(../assets/media/contact-img.jpg) 50% 20% ,no-repeat;
+}
+.item16{
+    padding: 2rem;
+    color: white;
+    background-color: rgb(15, 15, 15);
+    h2{
+        font-size: 2rem;
+        font-weight:200;
+        padding-bottom: 1rem;
+    }
+    p{
+        font-size: .9rem;
+        font-weight: 200;
+        padding-bottom: 1.3rem;
+    }
+    a{
+        color: white;
+        font-weight: 100;
+    }
+}
+.item17{
+    padding: 2rem;
+    background-color:#ef663b;
+}
+.item18{
+    background-color: white;
+    height: 45vh;
+    text-align: center;
+    padding-top:10rem;
+    li{
+        margin-left: 2rem;
+        margin-top: 1rem;
+    }
+    a{
+        color:rgb(71, 71, 71);
+       
+    }
+    p{
+        font-weight: 200;
+    }
+}
